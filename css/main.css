@@ -1,0 +1,118 @@
+/*************************************
+GENERAL
+**************************************/
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+    background-color: ghostwhite;
+}
+
+/* This modifies the header and centers it */
+header {
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background: deepskyblue;
+    padding-top: 15px;
+    border-radius: 25px 25px 0 0;
+
+}
+
+h1 {
+    font-size: 200%;
+    margin: 0 0 20px 0;
+}
+
+/* This centers the nav section */
+nav {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: dodgerblue;
+}
+
+/* This sets the font in the nav ul */
+nav ul {
+    list-style-type: none;
+    font-size: 120%;
+}
+
+/* This sets the font of the nav ul li to be bold */
+nav ul li {
+    font-weight: 700;
+    display: inline;
+    padding: 0 10px 0px;
+
+}
+
+/* This removes the underline from the items in the list */
+nav ul li a {
+    text-decoration: none;
+}
+
+/* This changes the font color of a link to white and makes it bold */
+nav ul li a:link {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+/* This changes the color of a visited link to white and bold */
+nav ul li a:visited {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+/* This sets the font of the list when hovered over to bold and italic */
+nav ul li a:hover {
+    text-decoration: none;
+    font-weight: 700;
+    color: darkblue;
+}
+
+h2 {
+    text-align: center;
+    color: dodgerblue;
+}
+
+.pic {
+    padding: 20px 10px 20px 200px;
+    float: left;
+    border-radius: 25px;
+}
+
+img.headshot {
+    border-radius: 25px;
+    border: 2px solid deepskyblue;
+}
+
+#about {
+    padding: 40px 200px 40px 0;
+    text-align: leftS;
+}
+
+#contact {
+    text-align: center;
+    color: dodgerblue;
+}
+
+/* This sets the footer to be centered, the text to red and the size of the text to 85% */
+footer {
+    background: dodgerblue;
+    text-align: left;
+    font-size: 80%;
+    clear: both;
+    color: white;
+    border-radius: 0 0 25px 25px;
+}
+
+#copyright {
+    margin-top: 0;
+    padding: 15px 0px 15px 10px;
+}
